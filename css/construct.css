@@ -279,22 +279,22 @@ h4 {
 .link-menu-item {
   list-style: none;
 }
-.company-title{
+.company-title {
   margin: 0;
   font-weight: 400;
   font-size: 11px;
   letter-spacing: 0.08em;
 }
-.links-title{
+.links-title {
   margin: 0;
   font-weight: 400;
   font-size: 11px;
   letter-spacing: 0.08em;
 }
-.contact-title{
+.contact-title {
   margin: 0;
 }
-.links{
+.links {
   display: flex;
   flex-direction:row;
   align-items: center;
@@ -307,7 +307,7 @@ h4 {
   line-height: 227%;
   letter-spacing: 0.08em;
 }
-.contact{
+.contact {
   max-width: 141px;
   width: 100%;
   height: 158px;
@@ -320,11 +320,11 @@ h4 {
   gap: 15px;
   align-items: flex-start;
 }
-.social{
+.social {
   margin-right: 100px;
   padding-top: 30px;
 }
-.end{
+.end {
   color: #fff;
   background: #171819;
   max-width: 1440px;
@@ -337,6 +337,29 @@ h4 {
   font-size: 11px;
   letter-spacing: 0.08em;
   font-family:"Open Sans", sans-serif;
+}
+.touch {
+  background: url(../img/touch.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.touch-btn {
+  
+}
+.touch-btn-white {
+  width: 150px;
+  height: 40px;
+  color: white;
+  background-color:#00a4e5;
+  font-family: "Open Sans";
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 0.04em;
+  text-align: center;
+}
+
+.touch-btn-white:hover {
+
 }
 
 @media (max-width: 391px){
