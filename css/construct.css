@@ -6,7 +6,8 @@
 .container {
   display:flex;    
   align-items:center;
-  flex-direction: column; 
+  flex-direction: column;
+  height: 100%
   }
 
   .item {
@@ -343,6 +344,16 @@ h4 {
   background-repeat: no-repeat;
   background-position: center;
 }
+.touch-row {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 37px
+}
+.touch__title{
+  margin:0;
+}
 .touch-btn {
   
 }
@@ -357,7 +368,7 @@ h4 {
   font-size: 13px;
   letter-spacing: 0.04em;
   text-align: center;
-}
+ }
 
 .touch-btn-white:hover {
 
