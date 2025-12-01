@@ -349,31 +349,43 @@ h4 {
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  gap: 37px
 }
-.touch__title{
-  margin:0;
-}
-.touch-btn {
-  
-}
-.touch-btn-white {
-  text-decoration-style: none;
-  width: 150px;
-  height: 40px;
-  color: white;
-  background-color:#00a4e5;
-  font-family: "Open Sans";
+.touch__title {
+  width: 352px;
+  margin:120px 0 37px;
+  font-family:"Open Sans", sans-serif;
   font-weight: 700;
-  font-size: 13px;
+  font-size: 30px;
+  line-height: 120%;
+  letter-spacing: 0.01em;
+  text-align: center;
+  color: #48555b;
+}
+.btn.white.touch {
+  margin-bottom: 229px;
+}
+.signup-row {
+  background: #171819;
+  max-width: 1440px;
+  width: 100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+.signup-title {
+  font-family:"Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 22px;
   letter-spacing: 0.04em;
   text-align: center;
- }
-
-.touch-btn-white:hover {
-
+  color: #fff;
+  padding-right: 70px;
 }
-
+.email{
+  border: 1px solid #979797;
+  width: 250px;
+  height: 40px;
+}
 @media (max-width: 391px){
   .body {
   margin: 0;
